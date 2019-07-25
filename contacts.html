@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>www.almatyzharnama.kz</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- header -->
+     <header>
+        <a href="#" class="nav--btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="#" class="phone--btn"></a>
+        <div class="header-top">
+            <div class="container">
+                <div class="left">
+                    <div class="langs">
+                        <span>RUS</span>
+                        <ul>
+                            <li class="active"><a href="#">Rus</a></li>
+                            <li><a href="#">Kaz</a></li>
+                            <li><a href="#">eng</a></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <a href="#" class="search--btn"></a>
+                        <form>
+                            <input type="search" placeholder="Поиск по сайту...">
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                    <a href="#" class="col--email">info@almatyzharnama.kz</a>
+                    <div class="col--phone">
+                        <a href="#">+7 (727) 292-99-42 </a>
+                        <a href="#" class="more--btn"></a>
+                        <ul>
+                            <li><a href="#">+7 (727) 292-99-42 </a></li>
+                            <li><a href="#">+7 (727) 292-99-42 </a></li>
+                            <li><a href="#">+7 (727) 292-99-42 </a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="call" data-modal="#modal--call">
+                            заказать звонок
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-down">
+            <div class="container">
+                <a href="index.html" class="logo"><img src="img/logo.png"></a>
+                <div class="nav">
+                    <ul>
+                        <li class="submenu">
+                            <a href="about.html">О компании</a>
+                            <ul>
+                                <li><a href="#">Производство и размещение наружной рекламы</a></li>
+                                <li><a href="#">Типография</a></li>
+                                <li><a href="#">Аренда рекламных конструкций </a></li>
+                                <li><a href="#">Сопровождение документаций </a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="services.html">Услуги</a>
+                            <ul>
+                                <li><a href="#">Производство и размещение наружной рекламы</a></li>
+                                <li><a href="#">Типография</a></li>
+                                <li><a href="#">Аренда рекламных конструкций </a></li>
+                                <li><a href="#">Сопровождение документаций </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Полезная информация</a></li>
+                        <li><a href="#">Наши работы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- modal -->
+<div class="modal" id="modal--call">
+    <div class="modal__layer"></div>
+        <div class="modal__block">
+            <a href="#" class="close"></a>
+            <h3 class="mini-title">Заказать звонок</h3>
+            <form>
+                <input type="text" placeholder="Имя" required>
+                <input type="text" name="tel" placeholder="+7 (999) 999-99-99">
+                <div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfhrpEUAAAAAAW9AX7eciJla_-ApJ4e5Ixm4v4Z&amp;co=aHR0cDovL29ydGlzLjl6Lmt6Ojgw&amp;hl=ru&amp;v=v1554100419869&amp;size=normal&amp;cb=d8ch9jirt1n6" width="304" height="78" role="presentation" name="a-3580oha6obmi" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>                    
+                <input type="submit" value="Отправить" class="btn" data-modal="#modal--finish">
+            </form>
+        </div>      
+  </div>
+
+  <div class="modal" id="modal--finish">
+     <div class="modal__layer"></div>
+        <div class="modal__block">
+            <a href="#" class="close"></a>
+            <h4>Ваше письмо успешно отправлено!</h4>
+        </div>      
+</div>
+
+    <!-- section -->
+<section>
+    <div class="page">
+        <!-- bread -->
+        <div class="bread">
+            <div class="container">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li>Контакты</li>
+                </ul>
+            </div>
+        </div>
+       <!-- contacts -->
+       <div class="contacts">
+           <div class="container">
+                <h1>Контакты</h1>
+           </div>
+           <div class="contacts-row">
+               <div id="map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb64a7aac817d0a64638cb3a086e0db392f0780ebb9955926b3bb3752df3cf25&amp;width=500&amp;height=400&amp;lang=ru_UA&amp;scroll=true"></script>                    
+               </div>
+               <div class="contacts-right">
+                   <div class="top">
+                        <div class="phone">
+                                <h4>Отдел продаж:</h4>
+                                <table>
+                                    <tr>
+                                        <td>Тел:</td>
+                                        <td>
+                                            <a href="#">+7 (727) 292-99-42</a>
+                                            <a href="#">+7 (727) 292-97-94</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Моб:</td>
+                                        <td>
+                                            <a href="#">+7 (727) 292-99-42</a>
+                                            <a href="#">+7 (727) 292-97-94</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                        </div>
+                            <div class="hts">
+                                    <h4>Адрес:</h4>
+                                    Казахстан, г. Алматы, ул. Айманова 126, 3 этаж
+                                    <div class="email">
+                                        <h4>E-mail:</h4>
+                                        <a href="#">info@almatyzharnama.kz</a>
+                                    </div>
+                            </div>
+                   </div>
+                   
+                      <!-- request -->
+                      <div class="contacts-bottom">
+                          <h3>Обратная связь</h3>
+                        <form>
+                            <div class="form">
+                                <input type="text" placeholder="Имя" required>
+                                <input type="text" name="tel" placeholder="+7 (___) ___-__-__" required>
+                                <textarea placeholder="Сообщение"></textarea>
+                                <div class="submition">
+                                    <div class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfhrpEUAAAAAAW9AX7eciJla_-ApJ4e5Ixm4v4Z&amp;co=aHR0cDovL29ydGlzLjl6Lmt6Ojgw&amp;hl=ru&amp;v=v1554100419869&amp;size=normal&amp;cb=d8ch9jirt1n6" width="304" height="78" role="presentation" name="a-3580oha6obmi" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+                                    <input type="submit" class="btn" value="Отправить" data-modal="#modal--finish">
+                                </div>
+                            </div>
+                    </form>
+                </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</section>
+        <!-- footer -->
+    <footer>
+        <div class="footer-top">
+            <img src="img/bg-6.png" class="footer-bg">
+            <div class="container">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <img src="img/logo-3.png">
+                    </a>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>                        
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Услуги</h3>
+                    <ul class="f-list">
+                        <li><a href="#">Производство и размещение наружной рекламы</a></li>
+                        <li><a href="#">Типография </a></li>
+                        <li><a href="#">Аренда рекламных конструкций </a></li>
+                        <li><a href="#">Юридическое опровождение</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                        <h3>Навигация</h3>
+                    <ul class="f-list">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Продукция</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                        <li class="active"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hts">
+                        <h3>Контакты</h3>
+                    <div class="col--address">
+                        <p>Казахстан, г. Алматы,<br> ул. Айманова 126, 3 этаж</p>
+                    </div>
+                    <div class="col--phone">
+                        <a href="#">+7 (727) 292-99-42</a>
+                        <a href="#">+7 (727) 292-99-42</a>
+                        <a href="#">+7 (727) 292-99-42</a>
+                        <a href="#">+7 (727) 292-99-42</a>
+                    </div>
+                    <a href="#" class="col--email">info@almatyzharnama.kz</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+                <div class="container">
+                     <p>Copyright © 2019 almatyzharnama.kz All Rights Reserved </p>
+                     <a href="https://artmedia.kz" target="_blank" class="artmedia">Создание сайта - <img src="img/artmedia_logo_2.png"></a>
+                 </div>
+         </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.inputmask.bundle.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
